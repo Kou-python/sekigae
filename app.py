@@ -13,7 +13,7 @@ if "fixed_seats" not in st.session_state:
 # 名前入力欄
 st.write("名前を入力してください")
 # 空行処理など
-names = st.text_area("名前", height=10)
+names = st.text_area("名前", height=100)
 names = names.split("\n")
 names = [name for name in names if name.strip() != ""]
 st.write("名前の数:", len(names))
