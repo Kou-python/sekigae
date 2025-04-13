@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    slack-notifier (2.4.0)
+    thor (1.2.2)
+
+PLATFORMS
+  arm64-darwin-22
+  ruby
+
+DEPENDENCIES
+  slack-notifier
+  thor
+
+BUNDLED WITH
+   2.5.4
